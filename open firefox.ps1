@@ -1,15 +1,3 @@
-﻿#open one cognizant
-Start-Process "C:\Program Files\Mozilla Firefox\firefox.exe" -ArgumentList "https://onecognizant.cognizant.com"
-
-#open the microsoft mail first time
-Start-Process "C:\Program Files\Mozilla Firefox\firefox.exe" -ArgumentList "login.microsoftonline.com"
-
-#open the outlook mail
-Start-Process "C:\Program Files\Mozilla Firefox\firefox.exe" -ArgumentList "https://outlook.office365.com/mail/"
-
-#open quora
-Start-Process "C:\Program Files\Mozilla Firefox\firefox.exe" -ArgumentList "https://www.quora.com"
-
 #open firefox with home page
 Start-Process "C:\Program Files\Mozilla Firefox\firefox.exe"
 
@@ -31,6 +19,3 @@ Start-Process "C:\Program Files\Mozilla Firefox\firefox.exe" -ArgumentList "http
 
 #closing the firefox
 Stop-Process -Name firefox
-
-#open google chrome
-Start-Process "C:\Program Files\Google\Chrome\Application\chrome.exe" -ArgumentList "https://cognizantcorp.webex.com/join/Jenifer.Johnson"
