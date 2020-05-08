@@ -1,0 +1,1 @@
+﻿Start-Process "C:\Program Files\Notepad++\notepad++.exe"  -ArgumentList C:\Users\hp\b.txt

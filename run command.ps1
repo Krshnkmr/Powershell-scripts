@@ -5,7 +5,7 @@ param(
 [parameter(Mandatory=$true)]
 [string]$path
 )
-explorer.exe $path
+Start-Process $path
 }
 
-run-command
+run-command 

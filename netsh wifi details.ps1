@@ -33,6 +33,7 @@ wi-fi_password
 
 #below command to execute the connection to specified network
 netsh wlan connect AndroidAPF2B5
+netsh wlan connect "vivo 1906"
 
 #below command to automatically disconnect the current network
 netsh wlan disconnect
